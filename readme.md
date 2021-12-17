@@ -4,7 +4,7 @@ A tiny convenience tool to convert time formats.
 
 ```
 Example:
-    time-format -u -- $(date)
+    time-format -u -- "$(date)"
 
 Flags:
    --version       Displays the program version string.
