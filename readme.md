@@ -1,10 +1,10 @@
-# time-format
+# reformat-time
 
 A tiny convenience tool to convert time formats.
 
 ```
 Example:
-    time-format -u -- "$(date)"
+    reformat-time -u -- "$(date)"
 
 Flags:
    --version       Displays the program version string.
@@ -16,7 +16,7 @@ Flags:
 -f --unix-float    Format time as unix float
 ```
 
-`time-format` currently parses:
+`reformat-time` currently parses:
 
 - RFC3339Nano
 - UnixDate

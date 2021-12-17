@@ -1,4 +1,4 @@
-module github.com/snamber/time-format
+module github.com/snamber/reformat-time
 
 go 1.17
 

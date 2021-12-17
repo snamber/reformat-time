@@ -21,7 +21,7 @@ func main() {
 	flaggy.Bool(&unix, "u", "unix", "Format time as unix time")
 	flaggy.Bool(&milli, "m", "unix-milli", "Format time as unix milli")
 	flaggy.Bool(&float, "f", "unix-float", "Format time as unix float")
-	flaggy.SetDescription("A tiny convenience tool to convert time formats.\n\n  Example:\n    time-format -u -- $(date)")
+	flaggy.SetDescription("A tiny convenience tool to convert time formats.\n\n  Example:\n    reformat-time -u -- \"$(date)\"")
 	flaggy.Parse()
 
 	// Set default
