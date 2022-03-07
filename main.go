@@ -56,7 +56,7 @@ func main() {
 		fmt.Println("FRC3339Nano UTC:", parsed.UTC().Format(time.RFC3339Nano))
 	}
 	if rfc3339 {
-		fmt.Println("RFC3339Nano:", parsed.Format(time.RFC3339Nano))
+		fmt.Println("RFC3339Nano:", parsed.In(time.Local).Format(time.RFC3339Nano))
 	}
 	if unix {
 		fmt.Println("Unix:", parsed.Unix())
