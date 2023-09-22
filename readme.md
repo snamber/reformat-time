@@ -14,6 +14,7 @@ Flags:
 -u --unix          Format time as unix time
 -m --unix-milli    Format time as unix milli
 -f --unix-float    Format time as unix float
+-id --uuid         Format time as UUID (ULID)
 ```
 
 `reformat-time` currently parses:
@@ -23,3 +24,4 @@ Flags:
 - Unix timestamp
 - Unix millisecond timestamp
 - Unix float timestamp
+- [ULID](https://github.com/ulid/spec) UUID (Universally Unique Lexicographically Sortable Identifier)
